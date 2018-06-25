@@ -1,4 +1,4 @@
-package com.karmanno.letmeconvert.payload;
+package com.karmanno.letmeconvert.payload.response;
 
 public class JwtAuthenticationResponse {
     private String accessToken;

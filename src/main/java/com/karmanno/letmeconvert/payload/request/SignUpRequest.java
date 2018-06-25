@@ -1,4 +1,4 @@
-package com.karmanno.letmeconvert.payload;
+package com.karmanno.letmeconvert.payload.request;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
