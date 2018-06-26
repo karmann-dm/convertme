@@ -13,6 +13,9 @@ public class UploadedFile extends UserDateAudit {
     @Column(name = "path_to_file")
     private String pathToFile;
 
+    @Column(name = "name")
+    private String name;
+
     public UploadedFile() {}
 
     public UploadedFile(String pathToFile) {
@@ -25,5 +28,13 @@ public class UploadedFile extends UserDateAudit {
 
     public void setPathToFile(String pathToFile) {
         this.pathToFile = pathToFile;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
