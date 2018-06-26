@@ -108,4 +108,9 @@ public class UserPrincipal implements UserDetails {
     public void setAuthorities(Collection<? extends GrantedAuthority> authorities) {
         this.authorities = authorities;
     }
+
+    @Override
+    public String toString() {
+        return "[" + getId() + ": " + getUsername() + " (" + getEmail() + ") " + "]";
+    }
 }

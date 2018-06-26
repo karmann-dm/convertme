@@ -1,7 +1,7 @@
 package com.karmanno.letmeconvert.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.karmanno.letmeconvert.payload.SignUpRequest;
+import com.karmanno.letmeconvert.payload.request.SignUpRequest;
 import com.karmanno.letmeconvert.repository.UserRepository;
 import org.apache.catalina.filters.CorsFilter;
 import org.junit.Before;
