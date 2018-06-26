@@ -12,7 +12,7 @@ import javax.persistence.MappedSuperclass;
         value = {"createdBy", "updatedBy"},
         allowGetters = true
 )
-public abstract class UserDateAudit {
+public abstract class UserDateAudit extends DateAudit {
     @CreatedBy
     @Column(updatable = false)
     private Long createdBy;
